@@ -22,3 +22,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.nav-bar > div {
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav-bar > div:hover {
+  cursor: pointer;
+}
